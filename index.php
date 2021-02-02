@@ -2,7 +2,7 @@
 
 ini_set('display_errors',1);
 
-setlocale(LC_TIME,"fr_FR.utf-8") ;
+setlocale(LC_ALL,"fr_FR.utf-8") ;
 
 $request = explode('/',substr($_SERVER['REQUEST_URI'],1));
 
