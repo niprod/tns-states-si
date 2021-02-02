@@ -17,7 +17,7 @@ require_once __DIR__.'/../includes/httpcodes.php';
 
 <div class='row'>
 	<div class='col-md-8 col-sm-12'>
-		<p>Last monitoring date : <span id='last_monitoring'> <?php echo date('r',$etat['INFO']['date']); unset($etat['INFO']); ?></span> <br/>
+		<p>Last monitoring date : <span id='last_monitoring'> <?php echo strftime('%a %d %b %Y %T %z (%Z)',$etat['INFO']['date']); unset($etat['INFO']); ?></span> <br/>
 			<i>Monitoring are refresh each minute.</i>
 		</p>
 	</div>

@@ -93,7 +93,7 @@ if (isset($_GET['a']))    error('Undefined action');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Forge Monitoring</title>
+    <title>TnS Monitoring</title>
     <link rel="icon" href="favicon.ico" />
 
     <!-- Bootstrap -->
@@ -127,7 +127,7 @@ if (isset($_GET['a']))    error('Undefined action');
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Forge Monitoring</a>
+          <a class="navbar-brand" href="/">T&amp;S Monitoring</a>
         </div>
       </div>
     </nav>
@@ -216,7 +216,7 @@ if (isset($_GET['a']))    error('Undefined action');
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">SAFT &copy; 2019.</p>
+        <p class="text-muted">Nicolas Dumas &copy; <?= date('Y') ?></p>
       </div>
     </footer>
 
