@@ -7,7 +7,7 @@ require_once __DIR__.'/../includes/httpcodes.php';
 
 <div id='maintenance' class="jumbotron row <?php if (!file_exists(__DIR__.'/../ram/maintenance.ini')) echo 'hidden' ; ?>">
 	<div class='col-md-3'>
-		<img class='img-thumbnail' src='/img/4.gif'/>
+		<img class='img-thumbnail' src='/img/giphy.gif'/>
 	</div>
 	<div class='col-md-9'>
 		<h3>Maintenance is on going ... </h3>

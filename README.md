@@ -1,12 +1,12 @@
-# Forge Monitor Website
+# Monitoring Web System
 
-This website originaly deployed on http://frg-monitor is used to monitor all service used by TTG Bordeaux Software Team.
+This website originaly deployed on https://niprod.net/etat is used to monitor all service used by niprod.
 
 They display a condensed status on one page. 
 
- An administration interface (by user/pass, access by clic on SAFT copyright on bottom page) can active/unactive maintenance mode.
+An administration interface (by user/pass, access by clic on copyright on bottom page) can active/unactive maintenance mode.
 
-Maintenance activation AND Global status is available on /var/www/html/ram directory. Available for trafficLight system. 
+Maintenance activation AND Global status is available on ./ram directory. (can connect physical trafficLight system) 
 
 ## Installation
 
@@ -32,7 +32,7 @@ crontab -e
 add this line : 
 
 ```shell
-*/1 * * * * php /var/www/html/refresh.php >/dev/null
+*/10 * * * * php /var/www/html/refresh.php >/dev/null
 ```
 
 ## Website configuration
